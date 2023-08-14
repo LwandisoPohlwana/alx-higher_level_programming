@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-b = 89
-v = 10
-b, v = v, b
-print("b={:d} - v={:d}".format(b, v))
+a = 89
+b = 10
+a, b = b, a
+print("a={:d} - b={:d}".format(a, b))
 
